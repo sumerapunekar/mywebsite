@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <title>Beauty</title>
+    </head>
+    <body>
+        <div class="text-4xl font-normal italic text-center bg-fuchsia-50 text-pink-500 py-5">
+            <h1>Bloom Beauty</h1>
+            <h6 class="text-xs text-gray-400 opacity-60 non-italic">Cosmetic and Perfumes</h6>
+        </div>
+        <div class="text-center bg-fuchsia-50 text-black font-medium text-xl py-0">
+            <button class="bg-pink-200 mr-3 rounded-full px-2 py-2 hover:bg-fuchsia-400 cursor-pointer">Eyebrows</button>
+            <button class="bg-pink-200 mr-3 rounded-full px-2 py-2 hover:bg-fuchsia-400 cursor-pointer">Skin Care</button>
+            <button class="bg-pink-200 mr-3 rounded-full px-2 py-2 hover:bg-fuchsia-400 cursor-pointer">Eyes</button>
+            <button class="bg-pink-200 mr-3 rounded-full px-2 py-2 hover:bg-fuchsia-400 cursor-pointer">Body-care</button>
+        </div>
+        <div class="mt-1 relative h-80 mb-9 ">
+            
+            <img src="https://t4.ftcdn.net/jpg/02/39/96/13/360_F_239961354_fl1eH8T6P7At29EcS2wJNNydottK3pXZ.jpg" class="w-screen h-100 ">
+            <h1 class="absolute text-black top-1/2 ml-40 mb-10 text-4xl font-serif gap-x-px">Have to Deal With a<br> Sensitive Skin?<br>
+             <span class="text-xl text-normal italic"> Bloom products protect, moisturize, and lubricate your skin.<br> It smartly nourish your skin with lotions,<br> day creams, night creams, tinted moisturizers, and more.</span></h1>
+        </div>
+        <script>
+            const increment  = ( function(x){ 
+                let counter = x ;
+                return function(){
+                    counter = 2 * counter;
+                    return counter ;
+
+                }
+
+            })(5)
+            increment()
+            increment()
+            console.log(increment())
+
+           
+        </script>
+    </body>
+
+    
+</html>
